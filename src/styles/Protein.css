@@ -1,0 +1,44 @@
+.protein-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.protein-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    background: #f5f5f5;
+}
+
+.protein-header:hover {
+    background: #eeeeee;
+}
+
+.protein-details {
+    padding: 15px;
+}
+
+.protein-details p {
+    margin: 8px 0;
+}
+
+.protein-details code {
+    background: #f4f4f4;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.protein-sequence {
+    margin-top: 8px;
+    padding: 12px;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
