@@ -1,6 +1,6 @@
-import ProteinCard from "../ProteinRenderer";
-import GoTermCard from "../GoTermRenderer";
-import BlastCard from "../BlastRenderer";
+import ProteinCard from "./ProteinRenderer";
+import GoTermCard from "./GoTermRenderer";
+import BlastCard from "./BlastRenderer";
 
 function Conversation({chatMessages}){
     
